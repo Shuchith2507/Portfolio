@@ -63,7 +63,8 @@ nav a:hover {
 #projects h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    font-family: 'Bungee Spice', cursive;
+    color: #a82cbb;
+    font-family: cursive;
 }
 
 #projects ul {
@@ -125,7 +126,8 @@ nav a:hover {
 #skills h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    font-family: 'Bungee Spice', cursive;
+    color: #a82cbb;
+    font-family: cursive;
 }
 
 #skills ul {
@@ -152,11 +154,11 @@ nav a:hover {
 }
 
 #about h2 {
-    color: #333;
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
-    font-family: 'Bungee Spice', cursive;
+    color: #a82cbb;
+    font-family: cursive;
 }
 
 #about p {
@@ -187,8 +189,8 @@ nav a:hover {
 #contact h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #333;
-    font-family: 'Bungee Spice', cursive;
+    color: #a82cbb;
+    font-family: cursive;
 }
 
 #contact form {
@@ -250,4 +252,100 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* publication.css */
+.publication-page {
+    text-align: center;
+    padding: 40px;
+}
+
+.publication-page h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #a82cbb;
+    font-family: cursive;
+}
+
+.publication-container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.publication-container iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+/* achievement.css */
+.achievement-page {
+    text-align: center;
+    padding: 40px;
+}
+
+.achievement-page h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #a82cbb;
+    font-family: cursive;
+}
+
+.linkedin-container {
+    max-width: 600px;
+    /* Adjust the width to fit your layout */
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.linkedin-container iframe {
+    width: 100%;
+    height: 400px;
+    /* Adjust the height to fit your content */
+}
+
+/* certificates.css */
+.certificates-page {
+    text-align: center;
+    padding: 40px;
+}
+
+.certificates-page h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #a82cbb;
+    font-family: cursive;
+}
+
+.certificates-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.certificate {
+    margin-bottom: 20px;
+}
+
+.certificate a {
+    display: block;
+    padding: 10px;
+    border: 2px solid #555;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    /* Adjust the font size to make the links smaller */
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.certificate a:hover {
+    background-color: #555;
+    color: #fff;
 }

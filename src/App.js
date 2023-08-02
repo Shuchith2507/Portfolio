@@ -7,17 +7,23 @@ import Skills from './components/Skills';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Publication from './components/Publication';
+import Achievement from './components/Achievement';
+import Certificate from './components/Certificate';
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Home/>
-      <Projects/>
-      <Skills/>
-      <About/>
-      <Contact/>
-      <Footer/>
+      <Navbar />
+      <Home />
+      <Projects />
+      <Skills />
+      <Achievement />
+      <Publication />
+      <Certificate />
+      <About />
+      <Contact />
+      <Footer />
     </div>
   );
 };
